@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alf's Movie Room</title>
+  <style>
+    body {
+      font-family: 'Courier New', Courier, monospace, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #e32490;
+      color: #fff;
+      padding: 10px 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #f4f4f4;
+      padding: 10px;
+    }
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+    }
+    main {
+      padding: 20px;
+      text-align: center;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      text-align: center;
+    }
+    /* The following media query for smaller screens is from the help of ChatGPT */
+    @media screen and (max-width: 768px) {
+      /* Adjustments for smaller screens */
+      header {
+        font-size: 18px; /* Example adjustment */
+      }
+      nav ul li {
+        display: block; /* Change navigation items to stack vertically */
+        margin-bottom: 5px; /* Add some spacing between navigation items */
+      }
+      main {
+        font-size: 16px; /* Example adjustment */
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Alf's Movie Club</h1>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="movies.html">Movies</a></li>
+    <li><a href="about.html">About Me</a></li>
+  </ul>
+</nav>
+
+<main>
+  <h2>Alf's Movie of the Month</h2>
+  <h3>"April Story" by Shunji Iwai</h3>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/gA_dyZ5tLRE?si=LNEBQklqUFopfaLa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</main>
+
+<footer>
+  <p>&copy; 2024 Alf's Movie Club. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
